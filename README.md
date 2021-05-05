@@ -7,6 +7,10 @@ The repository is created to control a cart-pole system using LQR Control. In th
 * time range trange = 5 s
 * gravitational acceleration g = 9.81 m/s^2
 
+Initial conditions:
+* pole angle: 10 degrees
+* init velocity: 0 m/s
+
 The pole placement method is also available in the *main.m* file and you can use it to comment out the *LQR* section and uncomment out *the pole placement* part.
 And for animation, you also need to uncomment *Animation* part. 
 
